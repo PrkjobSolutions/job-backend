@@ -3,7 +3,7 @@ const nodemailer = require('nodemailer');
 const multer = require('multer');
 const cors = require('cors');
 const app = express();
-const port = 5000;
+const port = process.env.PORT || 5000;
 
 app.use(cors());
 app.use(express.json());
@@ -59,5 +59,5 @@ app.post('/apply', upload.single('cv'), (req, res) => {
 });
 
 app.listen(port, () => {
-  console.log(`Server running on http://localhost:${port}`);
+  console.log(`Server running on port ${port}`);
 });
