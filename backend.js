@@ -21,8 +21,8 @@ app.post('/apply', upload.single('cv'), (req, res) => {
   const transporter = nodemailer.createTransport({
     service: 'gmail',
     auth: {
-      user: 'aayushisrivastava4545@gmail.com',       // 👉 Replace with your Gmail rukhsar.surve@prkjobsolutions.com  maam password rtsd ofgr owrv asvj
-      pass: 'cdso jveu smxf noqz'          // 👉 Replace with Gmail App Password
+      user: 'rukhsar.surve@prkjobsolutions.com',       // 👉 Replace with your Gmail 
+      pass: 'rtsd ofgr owrv asvj'          // 👉 Replace with Gmail App Password
     }
   });
 
