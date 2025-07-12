@@ -27,8 +27,8 @@ app.post('/apply', upload.single('cv'), (req, res) => {
   });
 
     const mailOptions = {
-    from: 'aayushisrivastava4545@gmail.com',
-    to: 'aayushisrivastava1920@gmail.com',
+    from: 'rukhsar.surve@prkjobsolutions.com',
+    to: 'rukhsar.surve@prkjobsolutions.com',
     subject: 'New Resume Submission',
     text: `New Job Application Received!
 
